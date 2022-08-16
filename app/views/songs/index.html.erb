@@ -1,0 +1,10 @@
+<h2>Songs List</h2>
+
+
+<% @songs.each do |song| %>
+<h3> <%= song.title %> </h3> 
+ <p> Playcount: <%= song.play_count %> plays </p> 
+ <p> Length: <%= song.length %> seconds </p> 
+
+
+<% end %>
